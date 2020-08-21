@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/Adaptee.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/ClassAdapter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/Target.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/Adaptee.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/ObjectAdapter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_singleton/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_singleton/singleton.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/Component.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/ConcreteComponent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/ConcreteDecorator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/Decorator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="D:\goproject\src\golang-design-pattern\02_adapter\java-objectadapter\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/02_adapter/classadpter_standard/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/03_singleton/main">
     <configuration name="go build golang-design-pattern/02_adapter/classadpter_standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,8 +77,28 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build golang-design-pattern/03_singleton/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/03_singleton/main/main.go" />
+      <package value="golang-design-pattern/03_singleton/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang-design-pattern/20_decorator/decorator_standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" />
+      <package value="golang-design-pattern/20_decorator/decorator_standard/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/03_singleton/main" />
+        <item itemvalue="Go Build.go build golang-design-pattern/20_decorator/decorator_standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/02_adapter/classadpter_standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/02_adapter/objectAdapter_standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/02_adapter/java-objectadapter/main" />
@@ -95,26 +116,46 @@
     <state x="130" y="-1704" key="FileChooserDialogImpl/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597713911532" />
     <state x="809" y="-742" key="FileChooserDialogImpl/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597756867492" />
     <state x="637" y="268" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597715614970" />
-    <state width="1877" height="302" key="GridCell.Tab.0.bottom" timestamp="1597762977876">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="431" key="GridCell.Tab.0.bottom" timestamp="1597974611131">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
+    <state width="2517" height="431" key="GridCell.Tab.0.bottom/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974611131" />
     <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996543" />
     <state width="1877" height="302" key="GridCell.Tab.0.bottom/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597762977876" />
-    <state width="1877" height="302" key="GridCell.Tab.0.center" timestamp="1597762977876">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="431" key="GridCell.Tab.0.center" timestamp="1597974611131">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
+    <state width="2517" height="431" key="GridCell.Tab.0.center/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974611131" />
     <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996542" />
     <state width="1877" height="302" key="GridCell.Tab.0.center/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597762977876" />
-    <state width="1877" height="302" key="GridCell.Tab.0.left" timestamp="1597762977876">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="431" key="GridCell.Tab.0.left" timestamp="1597974611131">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
+    <state width="2517" height="431" key="GridCell.Tab.0.left/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974611131" />
     <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996541" />
     <state width="1877" height="302" key="GridCell.Tab.0.left/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597762977876" />
-    <state width="1877" height="302" key="GridCell.Tab.0.right" timestamp="1597762977876">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="431" key="GridCell.Tab.0.right" timestamp="1597974611131">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
+    <state width="2517" height="431" key="GridCell.Tab.0.right/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974611131" />
     <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996542" />
     <state width="1877" height="302" key="GridCell.Tab.0.right/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597762977876" />
+    <state width="2517" height="483" key="GridCell.Tab.1.bottom" timestamp="1597974566652">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="483" key="GridCell.Tab.1.bottom/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974566652" />
+    <state width="2517" height="483" key="GridCell.Tab.1.center" timestamp="1597974566652">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="483" key="GridCell.Tab.1.center/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974566652" />
+    <state width="2517" height="483" key="GridCell.Tab.1.left" timestamp="1597974566652">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="483" key="GridCell.Tab.1.left/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974566652" />
+    <state width="2517" height="483" key="GridCell.Tab.1.right" timestamp="1597974566652">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="483" key="GridCell.Tab.1.right/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597974566652" />
     <state x="-438" y="-1839" key="SettingsEditor" timestamp="1597916216991">
       <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
