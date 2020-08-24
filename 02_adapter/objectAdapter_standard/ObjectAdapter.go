@@ -1,5 +1,8 @@
 package objectAdapter_standard
 
+/**
+	适配器
+ */
 type ObjectAdapter struct {
 	adaptee *Adaptee
 }

@@ -2,7 +2,9 @@ package objectAdapter_standard
 
 import "fmt"
 
-// 被适配者
+/**
+	被适配者
+ */
 type Adaptee struct {
 
 }
