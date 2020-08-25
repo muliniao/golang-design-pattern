@@ -39,18 +39,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_factory_method/standard" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goproject\src\golang-design-pattern\04_factory_method\standard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\goproject\src\golang-design-pattern\00_simple_factory" />
       <recent name="D:\goproject\src\golang-design-pattern\02_adapter\java-objectadapter\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/00_simple_factory/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/04_factory_method/standard/main">
     <configuration name="go build golang-design-pattern/00_simple_factory/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,21 +72,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build golang-design-pattern/02_adapter/objectAdapter_standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/02_adapter/objectAdapter_standard/main/main.go" />
-      <package value="golang-design-pattern/02_adapter/objectAdapter_standard/main" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build golang-design-pattern/03_singleton/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/03_singleton/main/main.go" />
       <package value="golang-design-pattern/03_singleton/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang-design-pattern/04_factory_method/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/04_factory_method/standard/main/main.go" />
+      <package value="golang-design-pattern/04_factory_method/standard/main" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -98,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/04_factory_method/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/00_simple_factory/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/03_singleton/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/20_decorator/decorator_standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/02_adapter/classadpter_standard/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/02_adapter/objectAdapter_standard/main" />
       </list>
     </recent_temporary>
   </component>
@@ -125,31 +128,31 @@
     <state x="130" y="-1704" key="FileChooserDialogImpl/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597713911532" />
     <state x="809" y="-742" key="FileChooserDialogImpl/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597756867492" />
     <state x="636" y="274" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597976760766" />
-    <state width="1877" height="301" key="GridCell.Tab.0.bottom" timestamp="1598282237714">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="430" key="GridCell.Tab.0.bottom" timestamp="1598345100951">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
-    <state width="2517" height="431" key="GridCell.Tab.0.bottom/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598273008858" />
+    <state width="2517" height="430" key="GridCell.Tab.0.bottom/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598345100951" />
     <state width="1877" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996543" />
     <state width="1877" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598282237714" />
     <state width="2517" height="483" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598005218673" />
-    <state width="1877" height="301" key="GridCell.Tab.0.center" timestamp="1598282237714">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="430" key="GridCell.Tab.0.center" timestamp="1598345100951">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
-    <state width="2517" height="431" key="GridCell.Tab.0.center/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598273008858" />
+    <state width="2517" height="430" key="GridCell.Tab.0.center/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598345100951" />
     <state width="1877" height="152" key="GridCell.Tab.0.center/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996542" />
     <state width="1877" height="301" key="GridCell.Tab.0.center/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598282237714" />
     <state width="2517" height="483" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598005218673" />
-    <state width="1877" height="301" key="GridCell.Tab.0.left" timestamp="1598282237713">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="430" key="GridCell.Tab.0.left" timestamp="1598345100951">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
-    <state width="2517" height="431" key="GridCell.Tab.0.left/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598273008858" />
+    <state width="2517" height="430" key="GridCell.Tab.0.left/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598345100951" />
     <state width="1877" height="152" key="GridCell.Tab.0.left/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996541" />
     <state width="1877" height="301" key="GridCell.Tab.0.left/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598282237713" />
     <state width="2517" height="483" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598005218673" />
-    <state width="1877" height="301" key="GridCell.Tab.0.right" timestamp="1598282237714">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state width="2517" height="430" key="GridCell.Tab.0.right" timestamp="1598345100951">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
-    <state width="2517" height="431" key="GridCell.Tab.0.right/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598273008858" />
+    <state width="2517" height="430" key="GridCell.Tab.0.right/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598345100951" />
     <state width="1877" height="152" key="GridCell.Tab.0.right/0.0.1536.824/-931.-2160.2560.1400@0.0.1536.824" timestamp="1597712996542" />
     <state width="1877" height="301" key="GridCell.Tab.0.right/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598282237714" />
     <state width="2517" height="483" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598005218673" />
@@ -177,10 +180,21 @@
       <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
     <state x="-438" y="-1839" key="SettingsEditor/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1597916216991" />
-    <state x="636" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1598280093276">
-      <screen x="13" y="-1080" width="1920" height="1040" />
+    <state x="-100" y="-1857" width="896" height="913" key="search.everywhere.popup" timestamp="1598344433776">
+      <screen x="-931" y="-2160" width="2560" height="1400" />
     </state>
-    <state x="-100" y="-1857" width="896" height="913" key="search.everywhere.popup/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598270462059" />
+    <state x="-100" y="-1857" width="896" height="913" key="search.everywhere.popup/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598344433776" />
     <state x="636" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598280093276" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/04_factory_method/standard/main/main.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
