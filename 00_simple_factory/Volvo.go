@@ -2,6 +2,9 @@ package _0_simple_factory
 
 import "fmt"
 
+/**
+	产品
+*/
 type Volvo struct {
 
 }
