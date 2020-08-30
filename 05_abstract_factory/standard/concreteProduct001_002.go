@@ -2,6 +2,9 @@ package standard
 
 import "fmt"
 
+/**
+	具体Product001_002
+*/
 type ConcreteProduct001_002 struct {
 
 }
