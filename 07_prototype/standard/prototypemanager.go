@@ -1,5 +1,8 @@
 package standard
 
+/**
+	原型管理类
+ */
 type PrototypeManager struct {
 	prototypes map[string]Cloneable
 }
