@@ -11,6 +11,6 @@ func main() {
 	director := standard.NewDirector(concreteBuilder)
 	concreteProduct := director.Construct()
 
-	fmt.Println(concreteProduct)
+	fmt.Println(*concreteProduct)
 
 }

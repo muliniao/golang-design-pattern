@@ -7,7 +7,6 @@ import (
 
 func main ()  {
 
-
 	flyWeight := standard.NewFlyWeightFactory()
 	flyWeight.GetFlyWeight("weibo").Operation(standard.NewUnsharedConcreteFlyWeight("Sina"))
 	flyWeight.GetFlyWeight("qq").Operation(standard.NewUnsharedConcreteFlyWeight("Tengxun"))

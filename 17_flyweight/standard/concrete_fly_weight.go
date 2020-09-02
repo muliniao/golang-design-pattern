@@ -4,6 +4,7 @@ import "fmt"
 
 /**
 	ConcreteFlyWeight:具体享元
+	内部状态: 即不会随着环境的改变而改变的可共享部分
 */
 type ConcreteFlyWeight struct {
 	Key	string
