@@ -1,6 +1,8 @@
 package main
 
-import "golang-design-pattern/22_bridge/standard"
+import (
+	"golang-design-pattern/22_bridge/standard"
+)
 
 func main() {
 
