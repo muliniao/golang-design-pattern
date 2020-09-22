@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang-design-pattern/17_flyweight/standard"
+	"golang-design-pattern/18_flyweight/standard"
 )
 
 func main ()  {
