@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang-design-pattern/19_visitor/standard"
+	"golang-design-pattern/23_visitor/standard"
 )
 
 func main()  {
