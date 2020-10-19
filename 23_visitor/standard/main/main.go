@@ -5,7 +5,7 @@ import (
 	"golang-design-pattern/23_visitor/standard"
 )
 
-func main()  {
+func main() {
 
 	os := standard.NewObjectStructure()
 
