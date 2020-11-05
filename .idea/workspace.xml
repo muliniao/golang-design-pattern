@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/fly_weight.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/fly_weight.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,11 +174,11 @@
       <screen x="13" y="-1080" width="1920" height="1040" />
     </state>
     <state x="105" y="-988" width="1736" height="856" key="DiffContextDialog/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1598768319829" />
-    <state x="802" y="-742" key="FileChooserDialogImpl" timestamp="1602756571585">
-      <screen x="6" y="-1080" width="1920" height="1040" />
+    <state x="809" y="-742" key="FileChooserDialogImpl" timestamp="1603379007646">
+      <screen x="13" y="-1080" width="1920" height="1040" />
     </state>
     <state x="130" y="-1704" key="FileChooserDialogImpl/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598523018194" />
-    <state x="809" y="-742" key="FileChooserDialogImpl/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1597756867492" />
+    <state x="809" y="-742" key="FileChooserDialogImpl/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1603379007646" />
     <state x="637" y="268" key="FileChooserDialogImpl/0.0.1536.824/6.-1080.1920.1040@0.0.1536.824" timestamp="1599031765709" />
     <state x="802" y="-742" key="FileChooserDialogImpl/0.0.1536.824/6.-1080.1920.1040@6.-1080.1920.1040" timestamp="1602756571585" />
     <state x="636" y="274" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601262310394" />
@@ -259,10 +258,11 @@
       <screen x="6" y="-1080" width="1920" height="1040" />
     </state>
     <state x="673" y="-961" width="1097" height="801" key="find.popup/0.0.1536.824/6.-1080.1920.1040@6.-1080.1920.1040" timestamp="1602579963549" />
-    <state x="629" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1602756327019">
-      <screen x="6" y="-1080" width="1920" height="1040" />
+    <state x="-114" y="-1857" width="896" height="913" key="search.everywhere.popup" timestamp="1604543303046">
+      <screen x="-945" y="-2160" width="2560" height="1400" />
     </state>
     <state x="-100" y="-1857" width="896" height="913" key="search.everywhere.popup/0.0.1536.824/-931.-2160.2560.1400@-931.-2160.2560.1400" timestamp="1598409386143" />
+    <state x="-114" y="-1857" width="896" height="913" key="search.everywhere.popup/0.0.1536.824/-945.-2160.2560.1400@-945.-2160.2560.1400" timestamp="1604543303046" />
     <state x="636" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/13.-1080.1920.1040@13.-1080.1920.1040" timestamp="1600871209116" />
     <state x="629" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/6.-1080.1920.1040@6.-1080.1920.1040" timestamp="1602756327019" />
   </component>
