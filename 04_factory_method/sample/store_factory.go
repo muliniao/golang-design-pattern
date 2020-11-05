@@ -1,5 +1,8 @@
 package sample
 
+/**
+	具体工厂: store factory
+ */
 type StoreFactory struct {
 
 }

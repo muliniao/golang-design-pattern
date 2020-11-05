@@ -2,6 +2,9 @@ package sample
 
 import "fmt"
 
+/**
+	具体产品: Card
+ */
 type CardCommodityService struct {
 
 }

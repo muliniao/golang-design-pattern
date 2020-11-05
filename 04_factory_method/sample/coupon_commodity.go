@@ -3,8 +3,8 @@ package sample
 import "fmt"
 
 /**
-	Coupon
- */
+	具体产品: Coupon
+*/
 type CouponCommodityService struct {
 	
 }

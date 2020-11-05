@@ -1,6 +1,8 @@
 package sample
 
 /**
+	抽象产品: Commodity
+
 	模拟发放多种奖品
 	- 1.优惠券
 	- 2.实物商品
