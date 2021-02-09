@@ -18,6 +18,9 @@ func NewDirector(builder Builder) Director {
  */
 func (director *Director) Construct() *Product {
 
-	return director.builder.BuildPartA().BuildPartB().BuildPartC().GetResult()
+	director.builder.BuildPartA()
+	director.builder.BuildPartB()
+	director.builder.BuildPartC()
+	return director.builder.GetResult()
 
 }

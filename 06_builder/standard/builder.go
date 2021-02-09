@@ -8,9 +8,9 @@ type Builder interface {
 	/**
 		构建对象
 	 */
-	BuildPartA() Builder
-	BuildPartB() Builder
-	BuildPartC() Builder
+	BuildPartA()
+	BuildPartB()
+	BuildPartC()
 
 	/**
 		返回构建完成的Product
