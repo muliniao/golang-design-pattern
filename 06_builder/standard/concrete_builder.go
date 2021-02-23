@@ -7,23 +7,25 @@ type ConcreteBuilder struct {
 	product	*Product
 }
 
-func NewConcreteBuilder(product *Product) *ConcreteBuilder {
-	return &ConcreteBuilder{product: product}
+func NewConcreteBuilder() *ConcreteBuilder {
+	return &ConcreteBuilder{
+		product: &Product{},
+	}
 }
 
 /**
 	构建对象
  */
 func (concreteBuilder *ConcreteBuilder) BuildPartA() {
-	concreteBuilder.product.SetPartA("建造 PartA")
+	concreteBuilder.product.setPartA("建造 PartA")
 }
 
 func (concreteBuilder *ConcreteBuilder) BuildPartB() {
-	concreteBuilder.product.SetPartB("建造 PartB")
+	concreteBuilder.product.setPartB("建造 PartB")
 }
 
 func (concreteBuilder *ConcreteBuilder) BuildPartC() {
-	concreteBuilder.product.SetPartC("建造 PartC")
+	concreteBuilder.product.setPartC("建造 PartC")
 }
 
 /**

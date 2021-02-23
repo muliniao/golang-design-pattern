@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	concreteBuilder := standard.NewConcreteBuilder(new(standard.Product))
+	concreteBuilder := standard.NewConcreteBuilder()
 	director := standard.NewDirector(concreteBuilder)
 	concreteProduct := director.Construct()
 

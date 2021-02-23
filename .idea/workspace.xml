@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/builder.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06_builder/standard/concrete_builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/concrete_builder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/director.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/director.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_builder/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_builder/standard/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/product.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +57,11 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-svc-lifeline_subscription" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_builder/sample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -82,22 +83,22 @@
       <recent name="D:\goproject\src\golang-design-pattern\01_facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/06_builder/standard/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/06_builder/sample/main">
+    <configuration name="go build golang-design-pattern/06_builder/sample/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/06_builder/sample/main/main.go" />
+      <package value="golang-design-pattern/06_builder/sample/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golang-design-pattern/06_builder/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/06_builder/standard/main/main.go" />
       <package value="golang-design-pattern/06_builder/standard/main" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build golang-design-pattern/12_Iterator/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/12_Iterator/standard/main/main.go" />
-      <package value="golang-design-pattern/12_Iterator/standard/main" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/06_builder/sample/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/06_builder/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/19_visitor/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/17_memento/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/21_responsibility/standard/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/12_Iterator/standard/main" />
       </list>
     </recent_temporary>
   </component>

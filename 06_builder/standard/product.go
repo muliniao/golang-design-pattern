@@ -9,14 +9,15 @@ type Product struct {
 	partC string
 }
 
-func (product *Product) SetPartA (partA string) {
+func (product *Product) setPartA (partA string) {
 	product.partA = partA
 }
 
-func (product *Product) SetPartB (partB string) {
+func (product *Product) setPartB (partB string) {
 	product.partB = partB
 }
 
-func (product *Product) SetPartC (partC string) {
+func (product *Product) setPartC (partC string) {
 	product.partC = partC
 }
+
