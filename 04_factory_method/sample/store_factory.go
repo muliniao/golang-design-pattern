@@ -1,10 +1,9 @@
 package sample
 
 /**
-	具体工厂: store factory
- */
+具体工厂: store factory
+*/
 type StoreFactory struct {
-
 }
 
 func (s *StoreFactory) GetCommodityService(commodityType int64) ICommodity {

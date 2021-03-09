@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Director(指挥者)
- */
+Director(指挥者)
+*/
 type Director struct {
 	builder Builder
 }
@@ -14,8 +14,8 @@ func NewDirector(builder Builder) Director {
 }
 
 /**
-	产品构建和组装
- */
+产品构建和组装
+*/
 func (director *Director) Construct() *Product {
 
 	director.builder.BuildPartA()

@@ -3,13 +3,12 @@ package standard
 import "fmt"
 
 /**
-	Concrete Implementor:具体实现化
- */
+Concrete Implementor:具体实现化
+*/
 type ConcreteImplementor struct {
-
 }
 
-func NewConcreteImplementor() *ConcreteImplementor{
+func NewConcreteImplementor() *ConcreteImplementor {
 	return &ConcreteImplementor{}
 }
 

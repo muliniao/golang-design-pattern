@@ -2,7 +2,7 @@ package main
 
 import "golang-design-pattern/13_composite/standard"
 
-func main()  {
+func main() {
 
 	var c0 standard.Component = standard.NewComposite()
 	var c1 standard.Component = standard.NewComposite()

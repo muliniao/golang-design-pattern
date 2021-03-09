@@ -5,7 +5,7 @@ import (
 	"golang-design-pattern/10_observer/standard"
 )
 
-func main()  {
+func main() {
 
 	observerList := standard.NewConcreteSubject()
 

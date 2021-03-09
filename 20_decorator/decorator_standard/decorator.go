@@ -1,10 +1,10 @@
 package decorator_standard
 
 /**
-	装饰者(抽象)
- */
+装饰者(抽象)
+*/
 type Decorator struct {
-	component	Component
+	component Component
 }
 
 func NewDecorator(component Component) *Decorator {
@@ -16,4 +16,3 @@ func NewDecorator(component Component) *Decorator {
 func (decorator *Decorator) Operation() {
 	decorator.component.Operation()
 }
-

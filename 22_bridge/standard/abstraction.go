@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Abstraction:抽象化角色
- */
+Abstraction:抽象化角色
+*/
 type Abstraction interface {
 	Operation()
 }

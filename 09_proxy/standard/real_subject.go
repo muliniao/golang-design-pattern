@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	RealSubject: 真实主题
- */
+RealSubject: 真实主题
+*/
 type RealSubject struct {
-
 }
 
 func NewRealSubject() *RealSubject {

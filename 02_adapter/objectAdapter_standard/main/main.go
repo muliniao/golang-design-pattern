@@ -5,7 +5,7 @@ import (
 	"golang-design-pattern/02_adapter/objectAdapter_standard"
 )
 
-func main () {
+func main() {
 
 	fmt.Println("对象适配器模式测试：")
 	adaptee := objectAdapter_standard.NewAdaptee()
@@ -13,4 +13,3 @@ func main () {
 	target.Request()
 
 }
-

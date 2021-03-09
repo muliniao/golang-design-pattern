@@ -5,7 +5,7 @@ import (
 	"golang-design-pattern/18_flyweight/standard"
 )
 
-func main ()  {
+func main() {
 
 	flyWeight := standard.NewFlyWeightFactory()
 	flyWeight.GetFlyWeight("weibo").Operation(standard.NewUnsharedConcreteFlyWeight("Sina"))

@@ -1,14 +1,14 @@
 package standard
 
 /**
-	ConcreteSubject: 具体主题
- */
+ConcreteSubject: 具体主题
+*/
 type ConcreteSubject struct {
-	ObserverList	[]Observer
+	ObserverList []Observer
 }
 
 func NewConcreteSubject() *ConcreteSubject {
- 	return &ConcreteSubject{
+	return &ConcreteSubject{
 		ObserverList: make([]Observer, 0),
 	}
 }

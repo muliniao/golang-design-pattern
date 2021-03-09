@@ -3,10 +3,9 @@ package sample
 import "fmt"
 
 /**
-	具体产品: Card
- */
+具体产品: Card
+*/
 type CardCommodityService struct {
-
 }
 
 func (c *CardCommodityService) SendCommodity(uId string, commodityId string, bizId string, Map map[string]string) error {
@@ -33,7 +32,6 @@ func queryUserMobile(uId string) string {
 }
 
 type iQiYiCardService struct {
-
 }
 
 func (i *iQiYiCardService) grantToken(mobile string, bizId string) (string, error) {

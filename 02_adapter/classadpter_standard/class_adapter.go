@@ -1,8 +1,8 @@
 package classadpter_standard
 
 /**
-	适配器
- */
+适配器
+*/
 type ClassAdapter struct {
 	// 继承
 	Adaptee
@@ -11,5 +11,3 @@ type ClassAdapter struct {
 func (classAdapter *ClassAdapter) Request() {
 	classAdapter.Adaptee.SpecificRequest()
 }
-
-

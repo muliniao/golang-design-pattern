@@ -11,4 +11,3 @@ func main() {
 	var target classadpter_standard.Target = new(classadpter_standard.ClassAdapter)
 	target.Request()
 }
-

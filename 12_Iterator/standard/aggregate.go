@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Aggregate: 抽象聚合
- */
+Aggregate: 抽象聚合
+*/
 type Aggregate interface {
 	Add(Object interface{})
 	Remove(Object interface{})

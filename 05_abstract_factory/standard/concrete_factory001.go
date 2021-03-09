@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	具体工厂001
- */
+具体工厂001
+*/
 type ConcreteFactory001 struct {
-
 }
 
 func (concreteFactory001 *ConcreteFactory001) NewProduct001() Product001 {

@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Abstract Expression
- */
+Abstract Expression
+*/
 type AbstractExpression interface {
 	Interpret(info string) interface{}
 }

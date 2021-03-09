@@ -3,13 +3,13 @@ package standard
 import "fmt"
 
 /**
-	FlyWeightFactory:享元工厂
- */
+FlyWeightFactory:享元工厂
+*/
 type FlyWeightFactory struct {
 	Pool map[string]FlyWeight
 }
 
-func NewFlyWeightFactory() *FlyWeightFactory{
+func NewFlyWeightFactory() *FlyWeightFactory {
 	return &FlyWeightFactory{
 		Pool: make(map[string]FlyWeight),
 	}
@@ -17,7 +17,7 @@ func NewFlyWeightFactory() *FlyWeightFactory{
 
 func (flyWeightFactory *FlyWeightFactory) GetFlyWeight(key string) FlyWeight {
 
-	if value, ok := flyWeightFactory.Pool[key];ok {
+	if value, ok := flyWeightFactory.Pool[key]; ok {
 		return value
 	}
 

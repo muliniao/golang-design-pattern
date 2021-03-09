@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Element
- */
+Element
+*/
 type Element interface {
 	Accept(visitor Visitor)
 }

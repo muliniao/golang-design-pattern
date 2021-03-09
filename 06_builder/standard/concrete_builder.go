@@ -1,10 +1,10 @@
 package standard
 
 /**
-	ConcreteBuilder(具体的Builder)
- */
+ConcreteBuilder(具体的Builder)
+*/
 type ConcreteBuilder struct {
-	product	*Product
+	product *Product
 }
 
 func NewConcreteBuilder() *ConcreteBuilder {
@@ -14,8 +14,8 @@ func NewConcreteBuilder() *ConcreteBuilder {
 }
 
 /**
-	构建对象
- */
+构建对象
+*/
 func (concreteBuilder *ConcreteBuilder) BuildPartA() {
 	concreteBuilder.product.setPartA("建造 PartA")
 }
@@ -29,8 +29,8 @@ func (concreteBuilder *ConcreteBuilder) BuildPartC() {
 }
 
 /**
-	返回构建完成的Product
- */
+返回构建完成的Product
+*/
 func (concreteBuilder *ConcreteBuilder) GetResult() *Product {
 	return concreteBuilder.product
 }

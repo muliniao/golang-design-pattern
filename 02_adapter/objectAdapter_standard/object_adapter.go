@@ -1,8 +1,8 @@
 package objectAdapter_standard
 
 /**
-	适配器
- */
+适配器
+*/
 type ObjectAdapter struct {
 	adaptee *Adaptee
 }
@@ -13,7 +13,6 @@ func NewObjectAdapter(adaptee *Adaptee) *ObjectAdapter {
 	}
 }
 
-func (objectAdapter *ObjectAdapter) Request () {
+func (objectAdapter *ObjectAdapter) Request() {
 	objectAdapter.adaptee.SpecificRequest()
 }
-

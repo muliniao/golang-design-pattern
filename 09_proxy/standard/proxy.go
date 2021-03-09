@@ -3,8 +3,8 @@ package standard
 import "fmt"
 
 /**
-	Proxy: 代理
- */
+Proxy: 代理
+*/
 type Proxy struct {
 	realSubject *RealSubject
 }

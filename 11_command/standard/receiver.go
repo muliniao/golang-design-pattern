@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	Receiver: 实现者/接收者角色
- */
+Receiver: 实现者/接收者角色
+*/
 type Receiver struct {
-
 }
 
 func (receiver *Receiver) Action() {

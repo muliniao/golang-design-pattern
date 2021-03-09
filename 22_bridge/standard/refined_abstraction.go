@@ -3,8 +3,8 @@ package standard
 import "fmt"
 
 /**
-	Refined	Abstraction:扩展抽象化角色
- */
+Refined	Abstraction:扩展抽象化角色
+*/
 type RefinedAbstraction struct {
 	implementor Implementor
 }

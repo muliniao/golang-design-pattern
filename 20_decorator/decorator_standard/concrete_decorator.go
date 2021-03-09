@@ -3,13 +3,13 @@ package decorator_standard
 import "fmt"
 
 /**
-	装饰者(具体)
- */
+装饰者(具体)
+*/
 type ConcreteDecorator struct {
-	decorator	*Decorator
+	decorator *Decorator
 }
 
-func NewConcreteDecorator(decorator *Decorator) *ConcreteDecorator{
+func NewConcreteDecorator(decorator *Decorator) *ConcreteDecorator {
 	return &ConcreteDecorator{decorator: decorator}
 }
 

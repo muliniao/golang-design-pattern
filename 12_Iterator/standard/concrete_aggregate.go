@@ -1,10 +1,10 @@
 package standard
 
 /**
-	ConcreteAggregate: 具体聚合
- */
+ConcreteAggregate: 具体聚合
+*/
 type ConcreteAggregate struct {
-	List	[]interface{}
+	List []interface{}
 }
 
 func NewConcreteAggregate() *ConcreteAggregate {

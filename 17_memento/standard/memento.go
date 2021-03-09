@@ -1,10 +1,10 @@
 package standard
 
 /**
-	Memento: 备忘录
- */
+Memento: 备忘录
+*/
 type Memento struct {
-	State	string
+	State string
 }
 
 func NewMemento(state string) *Memento {

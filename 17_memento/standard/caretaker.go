@@ -1,10 +1,10 @@
 package standard
 
 /**
-	Caretaker: 管理者
- */
+Caretaker: 管理者
+*/
 type Caretaker struct {
-	memento	*Memento
+	memento *Memento
 }
 
 func (c *Caretaker) SetMemento(memento *Memento) {

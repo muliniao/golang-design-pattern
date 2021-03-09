@@ -6,7 +6,6 @@ import "fmt"
 	具体工厂002: 返回具体产品实例
 */
 type ConcreteFactory002 struct {
-
 }
 
 func (concreteFactory002 *ConcreteFactory002) NewProduct() Product {

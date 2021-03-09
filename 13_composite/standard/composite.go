@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Composite:树枝角色
- */
+Composite:树枝角色
+*/
 type Composite struct {
 	Children []Component
 }

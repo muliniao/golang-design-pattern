@@ -16,8 +16,8 @@ func (concreteMediator *ConcreteMediator) Register(colleague AbstractColleague) 
 }
 
 /**
-	核心方法:处理所有concrete colleague的业务逻辑
- */
+核心方法:处理所有concrete colleague的业务逻辑
+*/
 func (concreteMediator *ConcreteMediator) Relay(relayColleague AbstractColleague) {
 
 	for _, v := range concreteMediator.ColleagueList {

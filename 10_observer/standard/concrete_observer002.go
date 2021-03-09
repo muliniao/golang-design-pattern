@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	ConcreteObserver002: 具体观察者
- */
+ConcreteObserver002: 具体观察者
+*/
 type ConcreteObserver002 struct {
-
 }
 
 func (concreteObserver *ConcreteObserver002) Response() {

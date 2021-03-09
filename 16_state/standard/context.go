@@ -3,10 +3,10 @@ package standard
 import "fmt"
 
 /**
-	Context:上下文
- */
+Context:上下文
+*/
 type Context struct {
-	state	State
+	state State
 }
 
 func NewContext(state State) *Context {

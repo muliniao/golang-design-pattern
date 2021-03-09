@@ -3,10 +3,10 @@ package standard
 import "fmt"
 
 /**
-	ConcreteHandler001: 具体处理者
- */
+ConcreteHandler001: 具体处理者
+*/
 type ConcreteHandler001 struct {
-	AbstractHandler	AbstractHandler
+	AbstractHandler AbstractHandler
 }
 
 func (c *ConcreteHandler001) HandleRequest(request string) {

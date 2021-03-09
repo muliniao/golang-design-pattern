@@ -3,14 +3,12 @@ package sample
 import "fmt"
 
 /**
-	具体产品: Goods
+具体产品: Goods
 */
 type GoodsCommodityService struct {
-
 }
 
 func (g *GoodsCommodityService) SendCommodity(uId string, commodityId string, bizId string, Map map[string]string) error {
-
 
 	deliver := new(Deliver)
 	deliver.SetUserName(uId)
@@ -26,13 +24,11 @@ func (g *GoodsCommodityService) SendCommodity(uId string, commodityId string, bi
 	return nil
 }
 
-
 // ignore
 type Deliver struct {
-
 }
 
-func (d *Deliver) SetUserName (uId string) {
+func (d *Deliver) SetUserName(uId string) {
 
 }
 
@@ -41,7 +37,6 @@ func (d *Deliver) SetUserPhone(phone string) {
 }
 
 type GoodsService struct {
-
 }
 
 func (g *GoodsService) DeliverGoods(deliver *Deliver) bool {

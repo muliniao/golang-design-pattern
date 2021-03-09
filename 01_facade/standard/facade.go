@@ -1,8 +1,8 @@
 package standard
 
 /**
-	Facade:外观
- */
+Facade:外观
+*/
 type Facade struct {
 	subSystem001 *SubSystem001
 	subSystem002 *SubSystem002

@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	Concrete Visitor
- */
+Concrete Visitor
+*/
 type ConcreteVisitorA struct {
-
 }
 
 func (concreteVisitorA *ConcreteVisitorA) VisitConcreteElementA(element ConcreteElementA) {

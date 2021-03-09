@@ -10,6 +10,6 @@ type AbstractColleague struct {
 	mediator Mediator
 }
 
-func (abstractColleague *AbstractColleague)SetMedium(mediator Mediator) {
+func (abstractColleague *AbstractColleague) SetMedium(mediator Mediator) {
 	abstractColleague.mediator = mediator
 }

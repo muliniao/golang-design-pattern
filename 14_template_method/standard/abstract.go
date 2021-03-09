@@ -29,7 +29,6 @@ func (o *CoffeeBrewAndCondiment) CustomWantsCondiment() bool {
 	return true
 }
 
-
 func (o *CoffeeWithWithHook) PrepareRecipe() {
 	o.BoilWater()
 	o.CaffeineBeverageTemplateMethod.Brew()

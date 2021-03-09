@@ -3,10 +3,9 @@ package standard
 import "fmt"
 
 /**
-	SubSystem001: 子系统
- */
+SubSystem001: 子系统
+*/
 type SubSystem001 struct {
-	
 }
 
 func NewSubSystem001() *SubSystem001 {

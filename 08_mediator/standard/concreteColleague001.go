@@ -18,5 +18,3 @@ func (concreteColleague001 *ConcreteColleague001) Send() {
 	fmt.Println("具体同事类001发出请求")
 	concreteColleague001.AbstractColleague.mediator.Relay(concreteColleague001.AbstractColleague)
 }
-
-

@@ -3,10 +3,10 @@ package standard
 import "fmt"
 
 /**
-	Invoker: 调用者/请求者角色
- */
+Invoker: 调用者/请求者角色
+*/
 type Invoker struct {
-	command	Command
+	command Command
 }
 
 func NewInvoker(command Command) *Invoker {
@@ -19,7 +19,7 @@ func (invoker *Invoker) SetCommand(command Command) {
 	invoker.command = command
 }
 
-func (invoker *Invoker) Call(){
+func (invoker *Invoker) Call() {
 	fmt.Println("调用者执行命令Command")
 	invoker.command.Execute()
 }

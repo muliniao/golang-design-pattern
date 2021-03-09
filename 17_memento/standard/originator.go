@@ -1,10 +1,10 @@
 package standard
 
 /**
-	Originator: 发起人
- */
+Originator: 发起人
+*/
 type Originator struct {
-	State	string
+	State string
 }
 
 func (o *Originator) CreateMemento() *Memento {

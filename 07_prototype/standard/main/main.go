@@ -15,11 +15,11 @@ func main() {
 	}
 
 	protoManger.Set("realizeType001", realizeType)
-	c := protoManger.Get("realizeType001").Clone()
+	c := protoManger.Get("realizeType001")
 
 	realizeType001 := c.(*standard.RealizeType)
 
 	fmt.Printf("[realizeType001.name]: [%s]", realizeType001.Name)
-	fmt.Printf("[realizeType002.age]: [%v]", realizeType001.Age)
+	fmt.Printf("[realizeType001.age]: [%v]", realizeType001.Age)
 
 }

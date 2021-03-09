@@ -1,10 +1,10 @@
 package standard
 
 /**
-	ConcreteCommand: 具体命令角色
- */
+ConcreteCommand: 具体命令角色
+*/
 type ConcreteCommand struct {
-	receiver	*Receiver
+	receiver *Receiver
 }
 
 func NewConcreteCommand(receiver *Receiver) *ConcreteCommand {
@@ -16,4 +16,3 @@ func NewConcreteCommand(receiver *Receiver) *ConcreteCommand {
 func (concreteCommand *ConcreteCommand) Execute() {
 	concreteCommand.receiver.Action()
 }
-

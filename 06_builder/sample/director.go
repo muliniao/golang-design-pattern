@@ -1,7 +1,7 @@
 package sample
 
 type Director struct {
-	houseBuilder	HouseBuilder
+	houseBuilder HouseBuilder
 }
 
 func NewDirector(houseBuilder HouseBuilder) Director {
@@ -17,4 +17,3 @@ func (director *Director) Construct() *House {
 
 	return director.houseBuilder.GetHouse()
 }
-

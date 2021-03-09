@@ -1,11 +1,11 @@
 package standard
 
 /**
-	ConcreteIterator: 具体迭代器
- */
+ConcreteIterator: 具体迭代器
+*/
 type ConcreteIterator struct {
-	List  		[]interface{}
-	Position	int
+	List     []interface{}
+	Position int
 }
 
 func NewConcreteIterator(list []interface{}) *ConcreteIterator {

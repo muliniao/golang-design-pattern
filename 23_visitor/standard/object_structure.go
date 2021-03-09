@@ -1,10 +1,10 @@
 package standard
 
 /**
-	Object Structure
- */
+Object Structure
+*/
 type ObjectStructure struct {
-	objectList	[]Element
+	objectList []Element
 }
 
 func NewObjectStructure() *ObjectStructure {
@@ -21,7 +21,7 @@ func (objectStructure *ObjectStructure) Attach(element Element) {
 
 func (objectStructure *ObjectStructure) Display(visitor Visitor) {
 
-	for _,v := range objectStructure.objectList {
+	for _, v := range objectStructure.objectList {
 		v.Accept(visitor)
 	}
 }
