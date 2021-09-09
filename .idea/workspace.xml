@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,122 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_simple_factory/audio.go" beforeDir="false" afterPath="$PROJECT_DIR$/00_simple_factory/audio.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_simple_factory/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/00_simple_factory/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_simple_factory/simple_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/00_simple_factory/simple_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_simple_factory/volvo.go" beforeDir="false" afterPath="$PROJECT_DIR$/00_simple_factory/volvo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_facade/standard/facade.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_facade/standard/facade.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_facade/standard/sub_system_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_facade/standard/sub_system_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_facade/standard/sub_system_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/01_facade/standard/sub_system_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/classadpter_standard/adaptee.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/adaptee.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/classadpter_standard/class_adapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/class_adapter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/classadpter_standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/classadpter_standard/target.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/target.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/adaptee.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/adaptee.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/object_adapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/object_adapter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/target.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/objectAdapter_standard/target.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_singleton/singleton.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_singleton/singleton.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/sample/card_commodity.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/sample/card_commodity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/sample/coupon_commodity.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/sample/coupon_commodity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/sample/goods_commodity.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/sample/goods_commodity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/sample/icommdity.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/sample/icommdity.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/sample/store_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/sample/store_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/abstract_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/abstract_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/concrete_factory_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/concrete_factory_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/concrete_factory_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/concrete_factory_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/concrete_product_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/concrete_product_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/concrete_product_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/concrete_product_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/standard/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/standard/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/abstract_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/abstract_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_factory001.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_factory001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_001_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_001_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_001_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_001_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_002_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_002_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_002_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/concrete_product_002_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/product_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/product_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_abstract_factory/standard/product_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/05_abstract_factory/standard/product_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/sample/director.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/sample/director.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/sample/house.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/sample/house.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/sample/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/sample/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/builder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/concrete_builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/concrete_builder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/director.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/director.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_builder/standard/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/standard/product.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_prototype/standard/cloneable.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_prototype/standard/cloneable.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_prototype/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_prototype/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_prototype/standard/proto_type_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_prototype/standard/proto_type_manager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_prototype/standard/realize_type.go" beforeDir="false" afterPath="$PROJECT_DIR$/07_prototype/standard/realize_type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_mediator/standard/colleague.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_mediator/standard/colleague.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_mediator/standard/concreteColleague001.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_mediator/standard/concreteColleague001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_mediator/standard/concreteColleague002.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_mediator/standard/concreteColleague002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_mediator/standard/concreteMediator.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_mediator/standard/concreteMediator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_mediator/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_mediator/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_proxy/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_proxy/standard/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/proxy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_proxy/standard/real_subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/real_subject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_proxy/standard/subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/subject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/concrete_observer001.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/concrete_observer001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/concrete_observer002.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/concrete_observer002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/concrete_subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/concrete_subject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/observer.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/observer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_observer/standard/subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/10_observer/standard/subject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_command/standard/command.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_command/standard/command.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_command/standard/concrete_command.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_command/standard/concrete_command.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_command/standard/invoker.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_command/standard/invoker.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_command/standard/receiver.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_command/standard/receiver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Iterator/standard/aggregate.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_Iterator/standard/aggregate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Iterator/standard/concrete_aggregate.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_Iterator/standard/concrete_aggregate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Iterator/standard/concrete_iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_Iterator/standard/concrete_iterator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_Iterator/standard/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_Iterator/standard/iterator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_composite/standard/component.go" beforeDir="false" afterPath="$PROJECT_DIR$/13_composite/standard/component.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_composite/standard/composite.go" beforeDir="false" afterPath="$PROJECT_DIR$/13_composite/standard/composite.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_composite/standard/leaf.go" beforeDir="false" afterPath="$PROJECT_DIR$/13_composite/standard/leaf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_composite/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/13_composite/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_template_method/standard/abstract.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_template_method/standard/abstract.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/concrete_strategy_001.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/concrete_strategy_001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/concrete_strategy_002.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/concrete_strategy_002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/strategy.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/strategy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/concrete_state001.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/standard/concrete_state001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/concrete_state002.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/standard/concrete_state002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/standard/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/state.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/standard/state.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_memento/standard/caretaker.go" beforeDir="false" afterPath="$PROJECT_DIR$/17_memento/standard/caretaker.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_memento/standard/memento.go" beforeDir="false" afterPath="$PROJECT_DIR$/17_memento/standard/memento.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_memento/standard/originator.go" beforeDir="false" afterPath="$PROJECT_DIR$/17_memento/standard/originator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/concrete_fly_weight.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/concrete_fly_weight.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/fly_weight.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/fly_weight.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/fly_weight_factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/fly_weight_factory.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_flyweight/standard/unshared_concrete_fly_weight.go" beforeDir="false" afterPath="$PROJECT_DIR$/18_flyweight/standard/unshared_concrete_fly_weight.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_interpreter/standard/abstract_expression.go" beforeDir="false" afterPath="$PROJECT_DIR$/19_interpreter/standard/abstract_expression.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_interpreter/standard/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/19_interpreter/standard/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_interpreter/standard/non_terminal_expression.go" beforeDir="false" afterPath="$PROJECT_DIR$/19_interpreter/standard/non_terminal_expression.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_interpreter/standard/terminal_expression.go" beforeDir="false" afterPath="$PROJECT_DIR$/19_interpreter/standard/terminal_expression.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/component.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_component.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_decorator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/decorator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler001.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler002.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22_bridge/standard/abstraction.go" beforeDir="false" afterPath="$PROJECT_DIR$/22_bridge/standard/abstraction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22_bridge/standard/concrete_implementor.go" beforeDir="false" afterPath="$PROJECT_DIR$/22_bridge/standard/concrete_implementor.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22_bridge/standard/implementor.go" beforeDir="false" afterPath="$PROJECT_DIR$/22_bridge/standard/implementor.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22_bridge/standard/refined_abstraction.go" beforeDir="false" afterPath="$PROJECT_DIR$/22_bridge/standard/refined_abstraction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/concrete_elementA.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/concrete_elementA.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/concrete_elementB.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/concrete_elementB.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/concrete_visitorA.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/concrete_visitorA.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/concrete_visitorB.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/concrete_visitorB.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/element.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/element.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/object_structure.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/object_structure.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23_visitor/standard/visitor.go" beforeDir="false" afterPath="$PROJECT_DIR$/23_visitor/standard/visitor.go" afterDir="false" />
-    </list>
+    <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\programfiles\go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../programfiles/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -169,7 +57,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -198,45 +88,45 @@
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/05_abstract_factory/standard/main/main.go" />
       <package value="golang-design-pattern/05_abstract_factory/standard/main" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05_abstract_factory/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/06_builder/sample/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/06_builder/sample/main/main.go" />
       <package value="golang-design-pattern/06_builder/sample/main" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/06_builder/sample/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/06_builder/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/06_builder/standard/main/main.go" />
       <package value="golang-design-pattern/06_builder/standard/main" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/06_builder/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/07_prototype/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/07_prototype/standard/main/main.go" />
       <package value="golang-design-pattern/07_prototype/standard/main" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/07_prototype/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/19_visitor/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/19_visitor/standard/main/main.go" />
       <package value="golang-design-pattern/19_visitor/standard/main" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/19_visitor/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>

@@ -1,4 +1,4 @@
-package sample
+package sample001
 
 /**
 抽象产品: Commodity

@@ -1,4 +1,4 @@
-package sample
+package sample001
 
 /**
 具体工厂: store factory
