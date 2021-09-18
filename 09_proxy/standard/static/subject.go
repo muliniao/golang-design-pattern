@@ -1,4 +1,4 @@
-package standard
+package static
 
 /**
 Subject: 抽象主题

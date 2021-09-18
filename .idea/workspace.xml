@@ -24,6 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/static/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/standard/proxy.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/static/proxy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/standard/real_subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/static/real_subject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/standard/subject.go" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/standard/static/subject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +83,14 @@
       <recent name="D:\goproject\src\golang-design-pattern\10_observer\standard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09_proxy/standard/static" />
       <recent name="$PROJECT_DIR$/04_factory_method/sample002" />
       <recent name="D:\goproject\src\golang-design-pattern\19_visitor\standard" />
       <recent name="D:\goproject\src\golang-design-pattern\21_responsibility\standard" />
       <recent name="D:\goproject\src\golang-design-pattern\10_observer\standard" />
-      <recent name="D:\goproject\src\golang-design-pattern\16_state\standard\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/07_prototype/standard/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/03_singleton/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,6 +99,24 @@
       <package value="golang-design-pattern" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang-design-pattern/03_singleton/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-design-pattern/03_singleton/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/03_singleton/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang-design-pattern/04_factory_method/sample002/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-design-pattern/04_factory_method/sample002/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/04_factory_method/sample002/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/05_abstract_factory/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -114,15 +137,6 @@
       <filePath value="$PROJECT_DIR$/06_builder/sample/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build golang-design-pattern/06_builder/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="golang-design-pattern/06_builder/standard/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/06_builder/standard/main/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build golang-design-pattern/07_prototype/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -130,15 +144,6 @@
       <package value="golang-design-pattern/07_prototype/standard/main" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/07_prototype/standard/main/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build golang-design-pattern/19_visitor/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="golang-design-pattern/19_visitor/standard/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/19_visitor/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/03_singleton/main" />
+        <item itemvalue="Go Build.go build golang-design-pattern/04_factory_method/sample002/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/07_prototype/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/05_abstract_factory/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/06_builder/sample/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/06_builder/standard/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/19_visitor/standard/main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +224,16 @@
           <url>file://$PROJECT_DIR$/21_responsibility/standard/concreteHandler001.go</url>
           <line>17</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/06_builder/standard/director.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/03_singleton/singleton.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

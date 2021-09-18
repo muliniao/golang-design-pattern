@@ -1,4 +1,4 @@
-package standard
+package static
 
 import "fmt"
 
