@@ -1,0 +1,88 @@
+*常用模式
+
+1.解决问题
+(1)避免冗长if-else和switch
+(2)提供框架的扩展点
+
+2.解耦
+策略的定义、创建和使用
+
+3.定义
+public interface Strategy {
+  void algorithmInterface();
+}
+
+public class ConcreteStrategyA implements Strategy {
+  @Override
+  public void  algorithmInterface() {
+    //具体的算法...
+  }
+}
+
+public class ConcreteStrategyB implements Strategy {
+  @Override
+  public void  algorithmInterface() {
+    //具体的算法...
+  }
+}
+
+4.创建
+(1)策略类无状态
+public class StrategyFactory {
+  private static final Map<String, Strategy> strategies = new HashMap<>();
+
+  static {
+    strategies.put("A", new ConcreteStrategyA());
+    strategies.put("B", new ConcreteStrategyB());
+  }
+
+  public static Strategy getStrategy(String type) {
+    if (type == null || type.isEmpty()) {
+      throw new IllegalArgumentException("type should not be empty.");
+    }
+    return strategies.get(type);
+  }
+}
+
+(2)策略类有状态
+public class StrategyFactory {
+  public static Strategy getStrategy(String type) {
+    if (type == null || type.isEmpty()) {
+      throw new IllegalArgumentException("type should not be empty.");
+    }
+
+    if (type.equals("A")) {
+      return new ConcreteStrategyA();
+    } else if (type.equals("B")) {
+      return new ConcreteStrategyB();
+    }
+
+    return null;
+  }
+}
+
+5.使用
+(1)运行时动态确定:根据配置文件的配置决定使用哪种策略
+public class Application {
+  public static void main(String[] args) throws Exception {
+    EvictionStrategy evictionStrategy = null;
+    Properties props = new Properties();
+    props.load(new FileInputStream("./config.properties"));
+    String type = props.getProperty("eviction_type");
+    evictionStrategy = EvictionStrategyFactory.getEvictionStrategy(type);
+    UserCache userCache = new UserCache(evictionStrategy);
+    //...
+  }
+}
+
+(2)非运行时动态确定:在代码中指定使用哪种策略
+public class Application {
+  public static void main(String[] args) {
+    //...
+    EvictionStrategy evictionStrategy = new LruEvictionStrategy();
+    UserCache userCache = new UserCache(evictionStrategy);
+    //...
+  }
+}
+
+
