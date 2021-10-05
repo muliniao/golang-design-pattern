@@ -1,0 +1,131 @@
+*常用模式(不推荐)
+
+1.单例的用处
+(1)全局唯一类
+(2)
+
+2.单例的实现
+(1)饿汉式
+(2)懒汉式
+(3)双重检测
+(4)静态内部类
+(5)枚举
+
+3.单例存在的问题
+(1)OOP特性支持不好: 封装、抽象、继承、多态
+(2)扩展性不好: 数据库连接池、线程池资源需要多个
+(3)测试行不好: 无法mock
+(4)不支持有参数的构造函数
+-调用init()函数传递，之后再调用getInstance()
+-将参数放在getInstance()中
+-配置文件或Config存储全局变量
+
+4.替代方案
+
+
+5.如何理解单例模式中的唯一性
+唯一性的作用范围: 单例模式创建的对象是进程内唯一，而非线程内
+
+6.如何实现线程唯一的单例
+// key是线程ID, value是单例对象
+public class IdGenerator {
+  private AtomicLong id = new AtomicLong(0);
+
+  private static final ConcurrentHashMap<Long, IdGenerator> instances
+          = new ConcurrentHashMap<>();
+
+  private IdGenerator() {}
+
+  public static IdGenerator getInstance() {
+    Long currentThreadId = Thread.currentThread().getId();
+    instances.putIfAbsent(currentThreadId, new IdGenerator());
+    return instances.get(currentThreadId);
+  }
+
+  public long getId() {
+    return id.incrementAndGet();
+  }
+}
+
+7.如何实现集群环境下的单例
+(1)单例对象序列化存储到外部共享存储区(比如文件)
+(2)进程使用单例对象时,从外部共享存储区读入内存,并反序列化成对象
+(3)使用后,再存储回外部共享存储区
+*过程中，需要加锁
+public class IdGenerator {
+  private AtomicLong id = new AtomicLong(0);
+  private static IdGenerator instance;
+  private static SharedObjectStorage storage = FileSharedObjectStorage(/*入参省略，比如文件地址*/);
+  private static DistributedLock lock = new DistributedLock();
+
+  private IdGenerator() {}
+
+  public synchronized static IdGenerator getInstance()
+    if (instance == null) {
+      lock.lock();
+      instance = storage.load(IdGenerator.class);
+    }
+    return instance;
+  }
+
+  public synchroinzed void freeInstance() {
+    storage.save(this, IdGeneator.class);
+    instance = null; //释放对象
+    lock.unlock();
+  }
+
+  public long getId() {
+    return id.incrementAndGet();
+  }
+}
+
+// IdGenerator使用举例
+IdGenerator idGeneator = IdGenerator.getInstance();
+long id = idGenerator.getId();
+idGenerator.freeInstance();
+
+8.如何实现一个多例模式
+(1)同一类型只能创建一个对象，不同类型可创建多个对象
+public class Logger {
+  private static final ConcurrentHashMap<String, Logger> instances
+          = new ConcurrentHashMap<>();
+
+  private Logger() {}
+
+  public static Logger getInstance(String loggerName) {
+    instances.putIfAbsent(loggerName, new Logger());
+    return instances.get(loggerName);
+  }
+
+  public void log() {
+    //...
+  }
+}
+
+//l1==l2, l1!=l3
+Logger l1 = Logger.getInstance("User.class");
+Logger l2 = Logger.getInstance("User.class");
+Logger l3 = Logger.getInstance("Order.class");
+
+
+9.其他
+(1)使用方式
+// 1. 老的使用方式
+public demofunction() {
+  //...
+  long id = IdGenerator.getInstance().getId();
+  //...
+}
+
+// 2. 新的使用方式：依赖注入
+public demofunction(IdGenerator idGenerator) {
+  long id = idGenerator.getId();
+}
+// 外部调用demofunction()的时候，传入idGenerator
+IdGenerator idGenerator = IdGenerator.getInsance();
+demofunction(idGenerator);
+
+(2)进程和线程的区别
+1.打开微信: 即开启一个进程
+2.微信功能: 朋友圈、扫一扫等等，就是线程
+

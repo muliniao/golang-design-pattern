@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	singleton "golang-design-pattern/03_singleton"
+
+	singleton "golang-design-pattern/03_singleton/standard"
 )
 
 func main() {

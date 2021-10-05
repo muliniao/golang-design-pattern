@@ -24,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_singleton/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_singleton/standard/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_singleton/singleton.go" beforeDir="false" afterPath="$PROJECT_DIR$/03_singleton/standard/singleton.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +88,11 @@
       <recent name="D:\goproject\src\golang-design-pattern\10_observer\standard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03_singleton/standard" />
       <recent name="$PROJECT_DIR$/09_proxy/standard/static" />
       <recent name="$PROJECT_DIR$/04_factory_method/sample002" />
       <recent name="D:\goproject\src\golang-design-pattern\19_visitor\standard" />
       <recent name="D:\goproject\src\golang-design-pattern\21_responsibility\standard" />
-      <recent name="D:\goproject\src\golang-design-pattern\10_observer\standard" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build golang-design-pattern/21_responsibility/standard002/main">
@@ -195,7 +197,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/03_singleton/main/main.go</url>
+          <url>file://$PROJECT_DIR$/03_singleton/standard/main/main.go</url>
           <line>12</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -234,7 +236,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/03_singleton/singleton.go</url>
+          <url>file://$PROJECT_DIR$/03_singleton/standard/singleton.go</url>
           <line>14</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
