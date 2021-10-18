@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface AbstractProduct {
++ Show()
+}
+
+class ConcreteProduct {
++ Show()
+}
+
+interface AbstractFactory {
++ Product NewProduct()
+}
+
+class ConcreteFactory {
++ Product NewProduct()
+}
+
+AbstractProduct <|.. ConcreteProduct
+AbstractFactory <|.. ConcreteFactory
+
+@enduml
