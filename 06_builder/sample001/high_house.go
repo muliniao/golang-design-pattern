@@ -1,4 +1,4 @@
-package sample
+package sample001
 
 type HighBuildingHouse struct {
 	house *House

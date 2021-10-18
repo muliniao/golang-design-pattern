@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Product {
+-partA
+-partB
+-partC
+-setPartA()
+-setPartB()
+-setPartC()
+}
+
+interface Builder {
++BuildPartA()
++BuildPartB()
++BuildPartC()
++Product GetResult()
+}
+
+class ConcreteBuilder {
++Product product
++ConcreteBuilder NewConcreteBuilder()
++BuildPartA()
++BuildPartB()
++BuildPartC()
++Product GetResult()
+}
+
+class Director {
++Builder builder
++Director NewDirector()
++Product Construct()
+}
+
+Builder <|.. ConcreteBuilder
+Director o-- Builder
+ConcreteBuilder o-- Product
+
+@enduml

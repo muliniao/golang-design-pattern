@@ -1,4 +1,4 @@
-package sample
+package sample001
 
 type House struct {
 	Basic string
