@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Subject {
++Request()
+}
+
+class RealSubject {
++RealSubject NewRealSubject()
++Request()
+}
+
+class Proxy {
++RealSubject realSubject
++Proxy NewProxy(RealSubject)
+-preRequest()
++Request()
+-postRequest()
+}
+
+Subject <|.. RealSubject
+Subject <|.. Proxy
+
+@enduml

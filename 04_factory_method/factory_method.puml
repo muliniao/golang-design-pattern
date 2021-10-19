@@ -14,7 +14,7 @@ interface AbstractFactory {
 }
 
 class ConcreteFactory {
-+ Product NewProduct()
++ Product NewProduct(): concreteProduct
 }
 
 AbstractProduct <|.. ConcreteProduct
