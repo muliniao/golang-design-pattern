@@ -1,4 +1,4 @@
-package decorator_standard
+package standard
 
 import "fmt"
 
@@ -6,16 +6,18 @@ import "fmt"
 装饰者(具体)
 */
 type ConcreteDecorator struct {
-	decorator *Decorator
+	baseDecorator	BaseDecorator
 }
 
-func NewConcreteDecorator(decorator *Decorator) *ConcreteDecorator {
-	return &ConcreteDecorator{decorator: decorator}
+func NewConcreteDecorator(baseDecorator BaseDecorator) *ConcreteDecorator {
+	return &ConcreteDecorator{
+		baseDecorator: baseDecorator,
+	}
 }
 
 func (concreteDecorator *ConcreteDecorator) Operation() {
-	concreteDecorator.decorator.Operation()
 	concreteDecorator.addFunction()
+	concreteDecorator.baseDecorator.Operation()
 }
 
 func (concreteDecorator *ConcreteDecorator) addFunction() {

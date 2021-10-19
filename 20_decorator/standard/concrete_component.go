@@ -1,4 +1,4 @@
-package decorator_standard
+package standard
 
 import "fmt"
 
@@ -6,6 +6,7 @@ import "fmt"
 被装饰者(具体)
 */
 type ConcreteComponent struct {
+
 }
 
 func NewConcreteComponent() *ConcreteComponent {

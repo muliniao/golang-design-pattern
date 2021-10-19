@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Component {
++Operation()
+}
+
+class ConcreteComponent {
++ConcreteComponent NewNewConcreteComponent()
++Operation()
+}
+
+class BaseDecorator {
+-component Component
++BaseDecorator NewBaseDecorator(Component)
++Operation()
+}
+
+class ConcreteDecorator {
++BaseDecorator baseDecorator()
++ConcreteDecorator NewConcreteDecorator()
++Operation()
+-addFunction()
+}
+
+Component <|.. ConcreteComponent
+Component <|.. BaseDecorator
+
+BaseDecorator *-- ConcreteDecorator
+@enduml

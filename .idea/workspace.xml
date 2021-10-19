@@ -24,7 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_factory_method/factory_method.puml" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/factory_method.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/comment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/comment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/component.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/concrete_component.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/concrete_decorator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/base_decorator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +77,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lifeline/web-svc-lifeline_license" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lifeline/web-svc-lifeline_application" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -94,7 +99,7 @@
       <recent name="D:\goproject\src\golang-design-pattern\21_responsibility\standard" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/09_proxy/sample001/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/20_decorator/standard/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -103,15 +108,6 @@
       <package value="golang-design-pattern" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build golang-design-pattern/03_singleton/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="golang-design-pattern/03_singleton/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/03_singleton/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/06_builder/sample002/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -141,6 +137,15 @@
       <filePath value="$PROJECT_DIR$/09_proxy/sample001/main/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build golang-design-pattern/20_decorator/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-design-pattern/20_decorator/standard/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/20_decorator/standard/main/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golang-design-pattern/21_responsibility/standard002/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -163,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/20_decorator/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/09_proxy/sample001/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/06_builder/sample002/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/06_builder/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/21_responsibility/standard002/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/03_singleton/main" />
       </list>
     </recent_temporary>
   </component>

@@ -1,4 +1,4 @@
-package decorator_standard
+package standard
 
 /**
 被装饰者(抽象)

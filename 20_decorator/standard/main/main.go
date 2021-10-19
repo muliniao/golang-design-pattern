@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"golang-design-pattern/20_decorator/decorator_standard"
+	"golang-design-pattern/20_decorator/standard"
 )
 
 func main() {
@@ -16,11 +16,11 @@ func main() {
 
 	 */
 
-	var component001 decorator_standard.Component = decorator_standard.NewConcreteComponent()
+	var component001 standard.Component = standard.NewConcreteComponent()
 	component001.Operation()
 
 	fmt.Println("-----------------------------------------------------")
 
-	var component002 decorator_standard.Component = decorator_standard.NewConcreteDecorator(decorator_standard.NewDecorator(component001))
+	var component002 standard.Component = standard.NewConcreteDecorator(standard.NewBaseDecorator(component001))
 	component002.Operation()
 }
