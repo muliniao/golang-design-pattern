@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Adaptee {
++SpecificRequest()
+}
+
+interface Target {
++Request()
+}
+
+class ClassAdapter {
++Adaptee
++Request(): SpecificRequest
+}
+
+class Client {
++main()
+}
+
+Adaptee <|-- ClassAdapter
+Target <|.. ClassAdapter
+Client <.. Target
+
+@enduml

@@ -24,12 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_proxy/comment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/comment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/component.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_component.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/concrete_component.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/concrete_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/concrete_decorator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/base_decorator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_decorator/decorator_standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_decorator/standard/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_adapter/classadpter_standard/class_adapter.go" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/classadpter_standard/class_adapter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_adapter/comment" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/comment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/comment.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +39,8 @@
         <option value="UML Use Case" />
         <option value="UML Component" />
         <option value="UML Sequence" />
-        <option value="UML Class" />
         <option value="Go File" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
