@@ -24,11 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/responsibility.puml" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/responsibility.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler001.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard001/concreteHandler001.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/concreteHandler002.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard001/concreteHandler002.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard001/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/standard/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/standard001/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21_responsibility/comment" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/comment" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,27 +261,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
-          <line>19</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
-          <line>24</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
-          <line>21</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
-          <line>36</line>
+          <line>27</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
-          <line>42</line>
+          <line>33</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
