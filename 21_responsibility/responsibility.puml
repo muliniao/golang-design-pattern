@@ -17,5 +17,5 @@ class HandlerChain {
 }
 
 IHandler <|.. ConcreteHandler
-
+HandlerChain *-- IHandler
 @enduml

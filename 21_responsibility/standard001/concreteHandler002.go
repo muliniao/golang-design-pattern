@@ -1,4 +1,4 @@
-package standard
+package standard001
 
 import "fmt"
 
