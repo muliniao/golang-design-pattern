@@ -21,7 +21,7 @@ class Client {
 }
 
 Target <|.. ObjectAdaptee
-Adaptee *-- ObjectAdaptee
+ObjectAdaptee *-- Adaptee
 Client <.. Target
 
 @enduml

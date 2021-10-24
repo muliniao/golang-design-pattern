@@ -24,7 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_responsibility/comment" beforeDir="false" afterPath="$PROJECT_DIR$/21_responsibility/comment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_adapter/object_adapter.puml" beforeDir="false" afterPath="$PROJECT_DIR$/02_adapter/object_adapter.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_factory_method/factory_method.puml" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/factory_method.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_proxy/proxy.puml" beforeDir="false" afterPath="$PROJECT_DIR$/09_proxy/proxy.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_observer/comment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_template_method/comment" beforeDir="false" afterPath="$PROJECT_DIR$/14_template_method/comment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_template_method/standard/abstract.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +42,12 @@
         <option value="UML Use Case" />
         <option value="UML Component" />
         <option value="UML Sequence" />
-        <option value="UML Class" />
         <option value="Go File" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///opt/go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../programfiles/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -94,7 +99,7 @@
       <recent name="D:\goproject\src\golang-design-pattern\21_responsibility\standard" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/21_responsibility/sample/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/14_template_method/standard/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -114,15 +119,6 @@
       <filePath value="$PROJECT_DIR$/06_builder/sample002/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build golang-design-pattern/06_builder/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-design-pattern" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="golang-design-pattern/06_builder/standard/main" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/06_builder/standard/main/main.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build golang-design-pattern/09_proxy/sample001/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -130,6 +126,15 @@
       <package value="golang-design-pattern/09_proxy/sample001/main" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/09_proxy/sample001/main/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golang-design-pattern/14_template_method/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-design-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golang-design-pattern/14_template_method/standard/main" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/14_template_method/standard/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/20_decorator/standard/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -163,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/14_template_method/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/21_responsibility/sample/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/20_decorator/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/09_proxy/sample001/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/06_builder/sample002/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/06_builder/standard/main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +273,10 @@
           <url>file://$PROJECT_DIR$/21_responsibility/sample/filterchain.go</url>
           <line>33</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/14_template_method/standard/concrete_template.go</url>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

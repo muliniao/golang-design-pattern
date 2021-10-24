@@ -10,7 +10,7 @@ class ConcreteProduct {
 }
 
 interface AbstractFactory {
-+ Product NewProduct()
++ AbstractProduct NewProduct()
 }
 
 class ConcreteFactory {

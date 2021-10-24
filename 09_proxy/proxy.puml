@@ -20,5 +20,6 @@ class Proxy {
 
 Subject <|.. RealSubject
 Subject <|.. Proxy
+Proxy o-- RealSubject
 
 @enduml
