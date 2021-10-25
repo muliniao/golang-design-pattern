@@ -4,7 +4,7 @@ package standard
 Context(环境类)
 */
 type Context struct {
-	Strategy Strategy
+	strategy Strategy
 }
 
 /**
@@ -12,7 +12,7 @@ type Context struct {
 */
 func NewContext(strategy Strategy) *Context {
 	return &Context{
-		Strategy: strategy,
+		strategy: strategy,
 	}
 }
 
@@ -20,13 +20,13 @@ func NewContext(strategy Strategy) *Context {
 传入动态策略
 */
 func (context *Context) SetStrategy(strategy Strategy) {
-	context.Strategy = strategy
+	context.strategy = strategy
 }
 
 func (context *Context) GetStrategy() Strategy {
-	return context.Strategy
+	return context.strategy
 }
 
 func (context *Context) ConcreteStrategyMethod() {
-	context.Strategy.StrategyMethod()
+	context.strategy.StrategyMethod()
 }

@@ -7,7 +7,7 @@
 2.解耦
 策略的定义、创建和使用
 
-3.定义
+(1).定义
 public interface Strategy {
   void algorithmInterface();
 }
@@ -26,8 +26,8 @@ public class ConcreteStrategyB implements Strategy {
   }
 }
 
-4.创建
-(1)策略类无状态
+(2).创建
+(a)策略类无状态
 public class StrategyFactory {
   private static final Map<String, Strategy> strategies = new HashMap<>();
 
@@ -44,7 +44,7 @@ public class StrategyFactory {
   }
 }
 
-(2)策略类有状态
+(b)策略类有状态
 public class StrategyFactory {
   public static Strategy getStrategy(String type) {
     if (type == null || type.isEmpty()) {
@@ -61,8 +61,8 @@ public class StrategyFactory {
   }
 }
 
-5.使用
-(1)运行时动态确定:根据配置文件的配置决定使用哪种策略
+(3).使用
+(a)运行时动态确定:根据配置文件的配置决定使用哪种策略
 public class Application {
   public static void main(String[] args) throws Exception {
     EvictionStrategy evictionStrategy = null;
@@ -75,7 +75,7 @@ public class Application {
   }
 }
 
-(2)非运行时动态确定:在代码中指定使用哪种策略
+(b)非运行时动态确定:在代码中指定使用哪种策略
 public class Application {
   public static void main(String[] args) {
     //...
