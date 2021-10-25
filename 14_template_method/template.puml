@@ -16,7 +16,7 @@ class TemplateFather {
 class ConcreteTemplate {
 TemplateFather
 +Fun1()
-+Fun2
++Fun2()
 }
 
 @enduml
