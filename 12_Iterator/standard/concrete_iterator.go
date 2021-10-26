@@ -1,38 +1,27 @@
 package standard
 
-/**
-ConcreteIterator: 具体迭代器
-*/
 type ConcreteIterator struct {
-	List     []interface{}
-	Position int
+	Cursor	int
+	List 	[]interface{}
 }
 
 func NewConcreteIterator(list []interface{}) *ConcreteIterator {
 	return &ConcreteIterator{
-		List:     list,
-		Position: 0,
+		Cursor: 0,
+		List:   list,
 	}
-}
-
-func (c *ConcreteIterator) First() interface{} {
-	c.Position = 0
-	return c.List[c.Position]
-}
-
-func (c *ConcreteIterator) Next() interface{} {
-	if c.HasNext() {
-		object := c.List[c.Position]
-		c.Position += 1
-		return object
-	}
-	return nil
 }
 
 func (c *ConcreteIterator) HasNext() bool {
-	if c.Position >= len(c.List) {
-		return false
-	} else {
-		return true
-	}
+	return c.Cursor != len(c.List) - 1
+}
+
+func (c *ConcreteIterator) Next() interface{} {
+	c.Cursor += 1
+	object := c.List[c.Cursor]
+	return object
+}
+
+func (c *ConcreteIterator) CurrentItem() interface{} {
+	return c.List[c.Cursor]
 }

@@ -2,25 +2,20 @@ package main
 
 import (
 	"fmt"
+
 	"golang-design-pattern/12_Iterator/standard"
 )
 
 func main() {
 
-	var aggregate standard.Aggregate = standard.NewConcreteAggregate()
+	collection := standard.NewConcreteCollection()
+	collection.List = append(collection.List, "aaa", "bbb", "ccc", "ddd", "eee")
 
-	aggregate.Add("AAAAAA")
-	aggregate.Add("BBBBBB")
-	aggregate.Add("CCCCCC")
+	iterator := collection.CreateIterator()
 
-	fmt.Println("聚合内容有:")
-
-	var itetator standard.Iterator = aggregate.GetIterator()
-
-	fmt.Printf("print the first element: [%v]\n", itetator.First())
-
-	fmt.Println("print all elements one by one")
-	for itetator.HasNext() {
-		fmt.Println(itetator.Next())
+	fmt.Println(iterator.CurrentItem())
+	for iterator.HasNext() {
+		fmt.Println(iterator.Next())
 	}
+
 }

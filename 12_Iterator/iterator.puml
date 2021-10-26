@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Iterator {
++Boolean HasNext()
++Object Next()
++Object CurrentItem()
+}
+
+class ConcreteIterator {
++Int Cursor
++Object[] List
++Constructor NewConcreteIterator(Object[] List)
++Boolean HasNext()
++Object Next()
++Object CurrentItem()
+}
+
+interface Collection {
++Iterator CreateIterator()
+}
+
+class ConcreteCollection {
++Object[] List
++Constructor NewConcreteCollection()
++Iterator CreateIterator()
+}
+
+Iterator <|.. ConcreteIterator
+Collection <|.. ConcreteCollection
+ConcreteIterator o-- ConcreteCollection
+
+@enduml

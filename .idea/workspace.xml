@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/comment" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/comment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_strategy/standard/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/15_strategy/standard/context.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/programfiles/go" />
+  <component name="GOROOT" url="file:///opt/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -95,7 +93,7 @@
       <recent name="$PROJECT_DIR$/03_singleton/standard" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-design-pattern/15_strategy/standard/main">
+  <component name="RunManager" selected="Go Build.go build golang-design-pattern/12_Iterator/standard001/main">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
@@ -106,13 +104,13 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build golang-design-pattern/14_template_method/callback/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build golang-design-pattern/12_Iterator/standard001/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-design-pattern" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="golang-design-pattern/14_template_method/callback/main" />
+      <package value="golang-design-pattern/12_Iterator/standard001/main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/14_template_method/callback/main/callback.go" />
+      <filePath value="$PROJECT_DIR$/12_Iterator/standard001/main/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build golang-design-pattern/14_template_method/callback/sample001/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build golang-design-pattern/12_Iterator/standard001/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/15_strategy/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/14_template_method/callback/sample002/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/14_template_method/callback/standard/main" />
         <item itemvalue="Go Build.go build golang-design-pattern/14_template_method/callback/sample001/main" />
-        <item itemvalue="Go Build.go build golang-design-pattern/14_template_method/callback/main" />
       </list>
     </recent_temporary>
   </component>
