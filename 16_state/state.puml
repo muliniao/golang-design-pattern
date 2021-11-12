@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface IState {
++Event001()
++Event002()
++Event003()
++GetCurrentState()
+}
+
+class ConcreteState001 {
++StateMachine StateMachine
++Constructor()
++Event001()
++Event002()
++Event003()
++GetCurrentState()
+}
+
+class ConcreteState002 {
++StateMachine StateMachine
++Constructor()
++Event001()
++Event002()
++Event003()
++GetCurrentState()
+}
+
+class ConcreteState003 {
++StateMachine StateMachine
++Constructor()
++Event001()
++Event002()
++Event003()
++GetCurrentState()
+}
+
+class StateMachine {
+-IState currentState
++Constructor(IState)
++Event001()
++Event002()
++Event003()
++SetState(IState)
++GetCurrentState()
+}
+
+IState <|.. ConcreteState001
+IState <|.. ConcreteState002
+IState <|.. ConcreteState003
+StateMachine o-- IState
+ConcreteState001 o-- StateMachine
+ConcreteState002 o-- StateMachine
+ConcreteState003 o-- StateMachine
+
+@enduml
