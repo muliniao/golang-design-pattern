@@ -23,17 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f594c5a-1cb2-4a9a-a685-4b5f394f2d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16_state/standard001/concrete_state001.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_state/standard001/concrete_state002.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_state/standard001/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_state/standard001/state_machine.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/comment" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/comment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/concrete_state001.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/concrete_state002.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/main/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_state/standard/state.go" beforeDir="false" afterPath="$PROJECT_DIR$/16_state/standard001/state.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_factory_method/factory_method.puml" beforeDir="false" afterPath="$PROJECT_DIR$/04_factory_method/factory_method.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_builder/builder.puml" beforeDir="false" afterPath="$PROJECT_DIR$/06_builder/builder.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///opt/go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../programfiles/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
